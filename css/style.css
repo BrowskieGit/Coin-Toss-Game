@@ -12,6 +12,15 @@ body {
     transition: 1s ease-in-out;
   }
   .cardStyle {
-    width: 400px; 
     background-color: transparent !important;
   }
+  @media only screen and (min-width: 768px) {
+  .cardStyle {
+    width: 400px; 
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cardStyle {
+    width: 90%; 
+  }
+}
