@@ -1,0 +1,17 @@
+body {
+    background: #30e8bf;
+    background: -webkit-linear-gradient(to right, #ff8235, #30e8bf);
+    background: linear-gradient(to right, #ff8235, #30e8bf);
+  }
+  .luckBtn {
+    cursor: pointer;
+    width: 130px;
+  }
+  .Wins {
+    transform: rotateX(1080deg);
+    transition: 1s ease-in-out;
+  }
+  .cardStyle {
+    width: 400px; 
+    background-color: transparent !important;
+  }
